@@ -15,23 +15,6 @@
   }
 }
 
-//CUSTOM ONE
-@mixin create-col-classes($modifier, $grid__cols, $breakpoint) {
-  @include create-mq($breakpoint) {
-    .col#{$modifier}-offset-0 {
-      margin-left: 0;
-    }
-    @for $i from 1 through $grid__cols {
-      .col#{$modifier}-#{$i} {
-        flex-basis: (100 / ($grid__cols / $i) ) * 1%;
-      }
-      .col#{$modifier}-offset-#{$i} {
-        margin-left: (100 / ($grid__cols / $i) ) * 1%;
-      }
-    }
-  }
-}
-
 @mixin make-row() {
   display: flex;
   flex-wrap: wrap;
