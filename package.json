@@ -24,6 +24,7 @@
   "author": "bernardo de stefano",
   "license": "MIT",
   "dependencies": {
+    "browser-sync": "^2.24.4",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.4",
     "gulp-header": "^2.0.5",
