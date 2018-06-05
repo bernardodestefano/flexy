@@ -4,3 +4,13 @@
 @import 'utilities/display';
 @import 'utilities/flex';
 @import 'grid';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

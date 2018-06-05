@@ -1088,3 +1088,11 @@
     margin-left: 83.33333%; }
   .offset-xl-11 {
     margin-left: 91.66667%; } }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
