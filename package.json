@@ -1,8 +1,11 @@
 {
   "name": "flexy",
   "version": "1.0.0",
-  "description": "A simple sass grid system based on flexbox",
+  "description": "Sass grid system based on flexbox",
   "main": "gulpfile.js",
+  "engines": {
+    "node": ">=8.9.0"
+  },
   "scripts": {
     "start": "set NODE_ENV=development&&gulp",
     "build": "set NODE_ENV=production&&gulp"
@@ -23,6 +26,8 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.4",
+    "gulp-header": "^2.0.5",
+    "gulp-pug": "^4.0.1",
     "gulp-rename": "^1.2.3",
     "gulp-sass": "^4.0.1",
     "gulp-sass-lint": "^1.4.0"
@@ -32,5 +37,4 @@
     "url": "https://github.com/bernardodestefano/flexy/issues"
   },
   "homepage": "https://github.com/bernardodestefano/flexy#readme"
-
 }

@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0") 
+    if environment === 'production'
+      link(rel="stylesheet", href="./flexy.min.css")
+    else
+      link(rel="stylesheet", href="./flexy.css")
+
+  body
+    section.container
+      .row
+        .col-12.col-sm-4 col-4
+        .col-12.col-sm-4 col-4
+        .col-12.col-sm-4 col-4
+      .row
+        .col-6 col-6
+        .col-6 col-6
