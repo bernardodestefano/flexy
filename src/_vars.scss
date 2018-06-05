@@ -1,6 +1,5 @@
+// Gutter
 $gutter: 16px;
-//$container-width: 100%;
-//$grid__cols: 12;
 
 // Grid columns
 //
@@ -32,17 +31,3 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px
 ) !default; //Bootstrap BP
-
-// EF BP
-$grid__bp-sm: 375;
-$grid__bp-md: 600;
-$grid__bp-lg: 1024;
-$grid__bp-xl: 1440;
-
-$map-grid-props: (
-  '': 0,
-  '-sm': $grid__bp-sm,
-  '-md': $grid__bp-md,
-  '-lg': $grid__bp-lg,
-  '-xl': $grid__bp-xl
-);

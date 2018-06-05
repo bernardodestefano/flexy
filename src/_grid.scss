@@ -1,14 +1,10 @@
 @import "mixins/_grid.scss";
 
 .container {
-  //margin: 0 auto;
-  //width: $grid__bp-md * 1px;
   @include make-container();
   @include make-container-max-widths();
   
   &--fluid {
-    //margin: 0;
-    //max-width: 100%;
     @include make-container();
   }
 }
@@ -21,11 +17,4 @@
   @include make-row();
 }
 
-/*
-@each $modifier , $breakpoint in $map-grid-props {
-  @include create-col-classes($modifier, $grid__cols, $breakpoint);
-}
-*/
-
-//Columns
 @include make-grid-columns();
