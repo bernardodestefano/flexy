@@ -6,7 +6,7 @@ A simple sass grid system based on flexbox
 
 1. clone or download this repository
 2. run `npm install`
-3. run `gulp`
+3. run `start` for development or `npm run build` for production
 4. have fun!
 
 ## Contributing

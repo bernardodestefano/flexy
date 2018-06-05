@@ -1,14 +1,25 @@
 {
   "name": "flexy",
   "version": "1.0.0",
+  "description": "A simple sass grid system based on flexbox",
   "main": "gulpfile.js",
   "scripts": {
     "start": "set NODE_ENV=development&&gulp",
     "build": "set NODE_ENV=production&&gulp"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bernardodestefano/flexy.git"
+  },
+  "keywords": [
+    "frontend",
+    "grid",
+    "style",
+    "sass",
+    "css"
+  ],
+  "author": "bernardo de stefano",
+  "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.4",
@@ -17,5 +28,9 @@
     "gulp-sass-lint": "^1.4.0"
   },
   "devDependencies": {},
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/bernardodestefano/flexy/issues"
+  },
+  "homepage": "https://github.com/bernardodestefano/flexy#readme"
+
 }
